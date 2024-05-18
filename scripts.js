@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Navigation smooth scroll
+    // Smooth scrolling for navigation links
     const navLinks = document.querySelectorAll('nav ul li a');
 
     navLinks.forEach(link => {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 
-    // Form submission
+    // Form submission handling
     const form = document.querySelector('form');
 
     form.addEventListener('submit', function(event) {
