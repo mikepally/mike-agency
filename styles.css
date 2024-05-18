@@ -46,6 +46,21 @@ header nav {
     margin-top: 10px;
 }
 
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    display: block;
+}
+
 .hero {
     background: #77b300;
     color: #fff;
