@@ -127,10 +127,13 @@ header nav ul li a:hover {
     align-items: center;
 }
 
+.services .service-container {
+    margin: 20px 0;
+}
+
 .services .service-item {
     width: 100%;
     max-width: 600px;
-    margin: 10px 0;
     padding: 20px;
     background: var(--light-color);
     border-radius: 8px;
