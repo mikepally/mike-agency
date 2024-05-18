@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
 }
 
@@ -31,21 +30,6 @@ header a {
     font-size: 16px;
 }
 
-header ul {
-    padding: 0;
-    list-style: none;
-}
-
-header li {
-    display: inline;
-    padding: 0 20px 0 20px;
-}
-
-header nav {
-    float: right;
-    margin-top: 10px;
-}
-
 header nav ul {
     display: flex;
     justify-content: space-around;
@@ -54,11 +38,6 @@ header nav ul {
 
 header nav ul li {
     padding: 0;
-}
-
-header nav ul li a {
-    padding: 10px 20px;
-    display: block;
 }
 
 header nav ul li a {
@@ -96,10 +75,6 @@ header nav ul li a:hover {
 .services, .about, .contact {
     padding: 20px 0;
     text-align: center;
-}
-
-.services .service-item, .about p, .contact form {
-    margin: 20px 0;
 }
 
 .services .container {
